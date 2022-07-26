@@ -7,7 +7,7 @@ const routes: Routes = [
 
   {path:'', children: [
 
-      // Страница /one
+      // Page /one
       {path: 'one', component: PageOneComponent, outlet: 'letone'},
       {path: 'two', component: PageTwoComponent, outlet: 'lettwo'},
 
