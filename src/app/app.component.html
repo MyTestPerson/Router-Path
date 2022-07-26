@@ -1,0 +1,18 @@
+<a routerLink="/">Home</a>
+
+<br><br>
+
+<!--<a routerLink="/one">One Child</a>-->
+<a [routerLink]="[{ outlets: { 'letone' : 'one' } }]">Button One</a>
+
+
+<br><br>
+
+<a [routerLink]="[{ outlets: { 'lettwo' : 'two' } }]">Button Two</a>
+
+<br><br>
+
+<router-outlet name="letone"></router-outlet>
+<router-outlet name="lettwo"></router-outlet>
+
+
